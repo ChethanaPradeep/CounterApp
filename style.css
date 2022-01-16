@@ -1,0 +1,85 @@
+html, 
+body{
+    padding: 0;
+    margin: 0;
+    display:flex;
+    height:100%;
+    width:100%;
+    justify-content:center;
+    align-items: center;
+    background: rgba(12,27,164,1);
+    background: linear-gradient(135deg, rgba(0,16,171,0.96)35%, rgba(57,255,243,1) );
+}
+.boxed{
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 20px;
+    width: 240px;
+    height: 300px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+h1{
+    text-align:center;
+    font-family: Poppins;
+    font-weight:normal;
+}
+
+#add-button{
+    margin-top:2px;
+    border-radius: 25px;
+    background: #ffffff;
+    border-color: rgba(12,27,164,1);
+    color: rgba(12,27,164,1);
+    padding: 10px 32px;
+    text-align: left;
+    text-decoration: none;
+ 
+    font-size: 16px;
+    font-family: Poppins;
+    box-shadow: rgba(48, 48, 102, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width:100%;
+    margin-bottom:10px;
+    font-weight:normal;
+}
+#sub-button{
+    border-radius: 25px;
+    background: #ffffff;
+    border-color: rgba(12,27,164,1);
+    color: rgba(12,27,164,1);
+    padding: 10px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Poppins;
+    box-shadow: rgba(48, 48, 102, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 100%;
+    font-weight:11px;
+}
+#add-button:hover{
+    background-color: rgba(12,27,164,1);
+    color:#ffffff;
+}
+#sub-button:hover{
+    background-color: rgba(12,27,164,1);
+    color:#ffffff;
+}
+#countdisplay{
+    text-align:center;
+    font-family:Poppins;
+    font-size:35px;
+    line-height:55px;
+    font-weight:bold;
+    background: -webkit-linear-gradient(135deg, rgba(0,16,171,0.96)35%, rgba(57,255,243,1) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.icon{
+    position: left;
+  /* Adjust these values accordingly */
+  top: 5px;
+  left: 2px;
+  background-color: rgba(12,27,164,1);
+  color: #ffffff;
+}
